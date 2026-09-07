@@ -1,0 +1,17 @@
+system_id,topology_id,primary_endpoint,final_value,unit,within_system_rank,rank_score_higher_is_better,fold_change,log2_fold_change,replicate_n,SD,raw_replicates_available,evidence_confidence,matching_status,source
+D-PA,DPA_T01,DPA_titer,152,mg/L,1,4,2.026666667,1.019108823,NA,NA,NO,authoritative_user_provided,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/user_provided/DPA_experimental_results.csv
+D-PA,DPA_T02,DPA_titer,95,mg/L,3,2,1.266666667,0.3410369182,NA,NA,NO,authoritative_user_provided,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/user_provided/DPA_experimental_results.csv
+D-PA,DPA_T03,DPA_titer,113,mg/L,2,3,1.506666667,0.5913602722,NA,NA,NO,authoritative_user_provided,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/user_provided/DPA_experimental_results.csv
+D-PA,DPA_T04,DPA_titer,60,mg/L,4,1,0.8,-0.3219280949,NA,NA,NO,authoritative_user_provided,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/user_provided/DPA_experimental_results.csv
+GI-DAE,GIDAE_T01,relative_activity,54.4,percent_of_control,2,3,0.544,-0.8783214434,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/阿洛酮糖-蛋白支架固定化方法.docx
+GI-DAE,GIDAE_T02,relative_activity,22.0,percent_of_control,3,2,0.22,-2.184424571,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/阿洛酮糖-蛋白支架固定化方法.docx
+GI-DAE,GIDAE_T03,relative_activity,57.6,percent_of_control,1,4,0.576,-0.7958592832,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/阿洛酮糖-蛋白支架固定化方法.docx
+GI-DAE,GIDAE_T04,relative_activity,0.0,percent_of_control,4,1,NA,NA,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/阿洛酮糖-蛋白支架固定化方法.docx
+GP-PGM,GPTRC_T01,relative_activity,118.3,percent_of_control,2,3,1.183,0.2424500737,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/塔格糖-多酶体内共固定化方法.docx
+GP-PGM,GPTRC_T02,relative_activity,62.9,percent_of_control,3,2,0.629,-0.6688680778,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/塔格糖-多酶体内共固定化方法.docx
+GP-PGM,GPTRC_T03,relative_activity,122.1,percent_of_control,1,4,1.221,0.2880632003,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/塔格糖-多酶体内共固定化方法.docx
+GP-PGM,GPTRC_T04,relative_activity,0.0,percent_of_control,4,1,NA,NA,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/塔格糖-多酶体内共固定化方法.docx
+RHLA-RHLB,RHLARHLB_T01,titer_60h,2.3,g/L,2,3,NA,NA,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/鼠李糖脂毕业论文.docx
+RHLA-RHLB,RHLARHLB_T02,titer_60h,5.3,g/L,1,4,NA,NA,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/鼠李糖脂毕业论文.docx
+RHLA-RHLB,RHLARHLB_T03,titer_60h,0.92,g/L,3,2,NA,NA,NA,NA,NO,moderate_local_text,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,references/鼠李糖脂毕业论文.docx
+RHLA-RHLB,RHLARHLB_T04,titer_60h,NA,NA,4,1,NA,NA,NA,NA,NO,high_identity;linker_sequence_conflict,EXACT_CONSTRUCT_ID_MATCH_AFTER_BLIND_FREEZE,user-provided frozen mapping

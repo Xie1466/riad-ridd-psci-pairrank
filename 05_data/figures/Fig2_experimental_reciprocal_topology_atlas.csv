@@ -1,0 +1,17 @@
+﻿system_id,topology_id,construct,primary_endpoint,final_value,unit,within_system_rank,fold_change_if_frozen,author_reported_independent_replicates_n,individual_replicates_available_in_compact_release,SD,source_evidence
+D-PA,DPA_T01,PanB-RIAD / PanC-RIDD,DPA_titer,152,mg/L,1,2.026666667,3,NO,NA,authoritative_user_provided
+D-PA,DPA_T02,PanB-RIDD / PanC-RIAD,DPA_titer,95,mg/L,3,1.266666667,3,NO,NA,authoritative_user_provided
+D-PA,DPA_T03,RIAD-PanB / RIDD-PanC,DPA_titer,113,mg/L,2,1.506666667,3,NO,NA,authoritative_user_provided
+D-PA,DPA_T04,RIDD-PanB / RIAD-PanC,DPA_titer,60,mg/L,4,0.8,3,NO,NA,authoritative_user_provided
+GI-DAE,GIDAE_T01,GI-RIDD / DAE-RIAD,relative_activity,54.4,percent_of_control,2,0.544,3,NO,NA,moderate_local_text
+GI-DAE,GIDAE_T02,RIDD-GI / RIAD-DAE,relative_activity,22.0,percent_of_control,3,0.22,3,NO,NA,moderate_local_text
+GI-DAE,GIDAE_T03,GI-RIAD / DAE-RIDD,relative_activity,57.6,percent_of_control,1,0.576,3,NO,NA,moderate_local_text
+GI-DAE,GIDAE_T04,RIAD-GI / RIDD-DAE,relative_activity,0.0,percent_of_control,4,NA,3,NO,NA,moderate_local_text
+GP-PGM,GPTRC_T01,GP-RIAD / TRC-RIDD,relative_activity,118.3,percent_of_control,2,1.183,3,NO,NA,moderate_local_text
+GP-PGM,GPTRC_T02,GP-RIDD / TRC-RIAD,relative_activity,62.9,percent_of_control,3,0.629,3,NO,NA,moderate_local_text
+GP-PGM,GPTRC_T03,RIAD-GP / RIDD-TRC,relative_activity,122.1,percent_of_control,1,1.221,3,NO,NA,moderate_local_text
+GP-PGM,GPTRC_T04,RIDD-GP / RIAD-TRC,relative_activity,0.0,percent_of_control,4,NA,3,NO,NA,moderate_local_text
+RHLA-RHLB,RHLARHLB_T01,RhlA-RIAD / RhlB-RIDD,titer_60h,2.3,g/L,2,NA,3,NO,NA,moderate_local_text
+RHLA-RHLB,RHLARHLB_T02,RhlA-RIDD / RhlB-RIAD,titer_60h,5.3,g/L,1,NA,3,NO,NA,moderate_local_text
+RHLA-RHLB,RHLARHLB_T03,RIAD-RhlA / RIDD-RhlB,titer_60h,0.92,g/L,3,NA,3,NO,NA,moderate_local_text
+RHLA-RHLB,RHLARHLB_T04,RIDD-RhlA / RIAD-RhlB,titer_60h,NA,NA,4,NA,3,NO,NA,high_identity;linker_sequence_conflict

@@ -1,0 +1,5 @@
+﻿model,system,pair_N,pair_accuracy,rho,tau,Top1,Top2,regret,mean_pair_margin,validation
+M2_PRIOR_PLUS_PSCI,D-PA,6,1.0,1.0,1.0,True,True,0.0,0.4355170329444176,strict_leave_one_system_out
+M2_PRIOR_PLUS_PSCI,GI-DAE,6,0.5,0.19999999999999998,0.0,True,False,0.0,0.3181300565264087,strict_leave_one_system_out
+M2_PRIOR_PLUS_PSCI,GP-PGM,6,0.6666666666666666,0.39999999999999997,0.3333333333333334,False,False,1.0,0.9002421347892892,strict_leave_one_system_out
+M2_PRIOR_PLUS_PSCI,RHLA-RHLB,6,1.0,1.0,1.0,True,True,0.0,0.7788158632636115,strict_leave_one_system_out

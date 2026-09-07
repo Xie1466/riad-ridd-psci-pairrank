@@ -1,0 +1,26 @@
+{
+  "title": "RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data",
+  "upload_type": "software",
+  "description": "Frozen code and compact data for reproducing PSCI assembly from deposited descriptor inputs, the literature architecture prior, Internal16 M0-M3 whole-system evaluation, reported metrics, and computational check figures.",
+  "creators": [
+    {
+      "name": "Xie, Chengqian"
+    },
+    {
+      "name": "Zhao, Xiaoru"
+    },
+    {
+      "name": "Cai, Xue"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "protein scaffold",
+    "RIAD",
+    "RIDD",
+    "PSCI",
+    "pairwise ranking",
+    "molecular dynamics"
+  ],
+  "version": "1.0.1"
+}

@@ -1,0 +1,37 @@
+{
+  "seed_policy": "No stochastic fitting; deterministic linear algebra. Figure rendering has no random elements.",
+  "systems": [
+    "D-PA",
+    "GI-DAE",
+    "GP-PGM",
+    "RHLA-RHLB"
+  ],
+  "model_feature_order": [
+    "Llit",
+    "delta_D",
+    "delta_C",
+    "delta_F1",
+    "delta_F4",
+    "delta_F5",
+    "delta_L"
+  ],
+  "primary_window_ns": [
+    0,
+    75
+  ],
+  "stride_ps": 100,
+  "contact_cutoff_nm": 0.45,
+  "ridge_penalty": 1.0,
+  "fit_intercept": false,
+  "probability_tolerance": 1e-12,
+  "exact_runtime": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "matplotlib": "3.6.3",
+    "PyYAML": "6.0.1"
+  },
+  "exact_probability_tolerance": 1e-12,
+  "compatibility_probability_tolerance": 1e-07,
+  "compatibility_gate": "all 96 M0-M3 pair directions unchanged and manuscript metrics exact"
+}

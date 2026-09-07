@@ -1,0 +1,5 @@
+﻿system_id,experimental_Top1,minimum_D_topology,minimum_D_experimental_rank,maximum_C_topology,maximum_C_experimental_rank,minimum_D_is_Top1,maximum_C_is_Top1
+D-PA,DPA_T01,DPA_T02,3,DPA_T02,3,FALSE,FALSE
+GI-DAE,GIDAE_T03,GIDAE_T02,3,GIDAE_T02,3,FALSE,FALSE
+GP-PGM,GPTRC_T03,GPTRC_T04,4,GPTRC_T04,4,FALSE,FALSE
+RHLA-RHLB,RHLARHLB_T02,RHLARHLB_T03,3,RHLARHLB_T01,2,FALSE,FALSE

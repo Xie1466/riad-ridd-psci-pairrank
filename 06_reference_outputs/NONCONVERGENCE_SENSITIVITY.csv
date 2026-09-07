@@ -1,0 +1,5 @@
+model,analysis,pair_N,correct_N,descriptive_pairwise_accuracy,excluded_topologies,model_refit
+M0_GLOBAL_PSCI_PAIRWISE,all_frozen_pairs,24,17,0.70833333333333337,none,NO
+M0_GLOBAL_PSCI_PAIRWISE,exclude_pairs_involving_explicit_not_converged_topology,15,11,0.73333333333333328,DPA_T01;GPTRC_T01;RHLARHLB_T04,NO
+M2_PRIOR_PLUS_PSCI,all_frozen_pairs,24,19,0.79166666666666663,none,NO
+M2_PRIOR_PLUS_PSCI,exclude_pairs_involving_explicit_not_converged_topology,15,11,0.73333333333333328,DPA_T01;GPTRC_T01;RHLARHLB_T04,NO

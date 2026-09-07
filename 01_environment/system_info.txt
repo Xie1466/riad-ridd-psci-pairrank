@@ -1,0 +1,3 @@
+Reference extraction platform: Linux x86_64, glibc 2.39
+Runtime requirements are platform-independent Python packages listed in requirements-lock.txt.
+Pinned runtime is recorded in python_version.txt, environment.yml and requirements-lock.txt; numerical portability is documented in 08_docs/PORTABILITY_AUDIT.md.

@@ -1,0 +1,17 @@
+﻿system_id,topology_id,construct,RIAD_RIDD_identity,terminal_placement,experimental_linker,experimental_linker_length_aa,MD_length_ns,primary_PSCI_window,PSCI_stride_ps,within_system_rank
+D-PA,DPA_T01,PanB-RIAD / PanC-RIDD,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,1
+D-PA,DPA_T02,PanB-RIDD / PanC-RIAD,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,3
+D-PA,DPA_T03,RIAD-PanB / RIDD-PanC,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,2
+D-PA,DPA_T04,RIDD-PanB / RIAD-PanC,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,4
+GI-DAE,GIDAE_T01,GI-RIDD / DAE-RIAD,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,2
+GI-DAE,GIDAE_T02,RIDD-GI / RIAD-DAE,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,3
+GI-DAE,GIDAE_T03,GI-RIAD / DAE-RIDD,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,1
+GI-DAE,GIDAE_T04,RIAD-GI / RIDD-DAE,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,4
+GP-PGM,GPTRC_T01,GP-RIAD / TRC-RIDD,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,2
+GP-PGM,GPTRC_T02,GP-RIDD / TRC-RIAD,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,3
+GP-PGM,GPTRC_T03,RIAD-GP / RIDD-TRC,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,1
+GP-PGM,GPTRC_T04,RIDD-GP / RIAD-TRC,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,4
+RHLA-RHLB,RHLARHLB_T01,RhlA-RIAD / RhlB-RIDD,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,2
+RHLA-RHLB,RHLARHLB_T02,RhlA-RIDD / RhlB-RIAD,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme C terminus;enzyme2:scaffold/tag at enzyme C terminus,(G4S)3,15,100,0-75 ns,100,1
+RHLA-RHLB,RHLARHLB_T03,RIAD-RhlA / RIDD-RhlB,chain1=RIAD;chain2=RIDD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,3
+RHLA-RHLB,RHLARHLB_T04,RIDD-RhlA / RIAD-RhlB,chain1=RIDD;chain2=RIAD,enzyme1:scaffold/tag at enzyme N terminus;enzyme2:scaffold/tag at enzyme N terminus,(G4S)3,15,100,0-75 ns,100,4

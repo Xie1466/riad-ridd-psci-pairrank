@@ -1,0 +1,1 @@
+"""Deterministic computational figure generation."""

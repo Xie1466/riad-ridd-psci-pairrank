@@ -1,0 +1,7 @@
+﻿item,value
+pair_input,"[Llit, delta_D, delta_C, delta_F1, delta_F4, delta_F5, delta_L]"
+split,whole-enzyme-system leave-one-system-out
+preprocessing,training-fold population-SD scaling only; no mean centering
+estimator,no-intercept L2-regularized logistic pairwise model
+ridge_penalty,1.0
+ranking,mean predicted win probability against the other three topologies

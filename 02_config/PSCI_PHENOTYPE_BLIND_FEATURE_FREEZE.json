@@ -1,0 +1,102 @@
+{
+  "confidence_rules": {
+    "A_B": "experimental_or_reviewed",
+    "E": "high_identity_homolog",
+    "F": "computed_structure_plus_conserved_motif_proxy_only",
+    "not_identifiable": "no numeric value"
+  },
+  "dimensions": {
+    "A": {
+      "missing_rule": "both_components_required",
+      "primary": "mean_component(active_residue_SASA_per_residue / frame0_same)",
+      "probe_nm": 0.14
+    },
+    "C": {
+      "cutoffs_nm": [
+        0.4,
+        0.45,
+        0.5
+      ],
+      "direction": "non_monotonic",
+      "primary": "interenzyme_heavy_contacts_0.45nm / sqrt(Nheavy1*Nheavy2)"
+    },
+    "D": {
+      "direction": "non_monotonic",
+      "primary": "enzyme_core_CA_COM_distance_nm / mean_component_coordinate_Rg_nm",
+      "raw": [
+        "COM_distance_nm",
+        "minimum_heavy_distance_nm"
+      ]
+    },
+    "F": {
+      "components": [
+        "F1_terminal_accessibility",
+        "F2_terminal_active_geometry",
+        "F3_native_interface",
+        "F4_local_steric_packing",
+        "F5_terminal_constraint"
+      ],
+      "representation": "F_VECTOR",
+      "scalar": "F_SCALAR_NOT_IDENTIFIABLE"
+    },
+    "L": {
+      "primary": "mean_linker_CA_end_to_end_nm / ((n_residues-1)*0.38nm)",
+      "states": {
+        "compact": "<0.35",
+        "extended": ">0.70",
+        "intermediate": "0.35-0.70"
+      }
+    },
+    "O": {
+      "interpretation": "productive_orientation_proxy_only",
+      "primary": "occupancy(cosine_component1>=0.5 and cosine_component2>=0.5)"
+    },
+    "Q": {
+      "Q_topology": "SCIENTIFICALLY_NOT_IDENTIFIABLE",
+      "ranking_use": false,
+      "representation": [
+        "Q_context",
+        "Q_topology"
+      ]
+    }
+  },
+  "freeze_version": "PSCI_PHENOTYPE_BLIND_FEATURE_FREEZE_V1",
+  "frozen_date": "2026-08-11",
+  "missingness_classes": [
+    "NUMERIC_MISSING",
+    "SCIENTIFICALLY_NOT_IDENTIFIABLE",
+    "ZERO_VARIANCE",
+    "SYSTEM_CONTEXT_ONLY"
+  ],
+  "phenotype_opened_by_this_pipeline": false,
+  "primary_window_ns": [
+    0,
+    75
+  ],
+  "sensitivity_windows_ns": [
+    [
+      0,
+      50
+    ],
+    [
+      0,
+      100
+    ]
+  ],
+  "source_hashes_sha256": {
+    "metadata/ACTIVE_SITE_RESIDUE_REGISTRY_INTERNAL16_V2.csv": "de68b139db916f1683e029ae1fef01a7fc6c872e7d113d2ed4a5609ecb66ed32",
+    "metadata/PSCI_BIOCHEMICAL_SOURCE_REGISTRY.csv": "c250569c2c70bfaa7c3563c37d747ab4a36770cc44ad9120fcfb8a328a183ff4",
+    "metadata/PSCI_BIOLOGICAL_ASSEMBLY_REGISTRY.csv": "e4402d012caa6d7972bd4a06bb304d40f5be26645c79c0dc104fc15b9e46218c",
+    "metadata/PSCI_INTERNAL16_IDENTITY_RESOLUTION.csv": "240b4e2cfe710aec19de1ff14bdf073301d6db5f5d39af9b2c1a6af6296467a6",
+    "metadata/component_group_map.csv": "b3a1b0b9edf25766c5707f39332151d3484eb091d28cb59884e39b1716393f69",
+    "reports/ALPHA_GP_ACTIVE_SITE_MAPPING.md": "ee14bbf8561d927e882a8227edf236cad0795b11ebfb057631e4be66279042ec",
+    "reports/DAE_ACTIVE_SITE_MAPPING.md": "dc617d4097ea271567473c8a8665fc383d396a404c005ab7095278ddef459992",
+    "reports/PSCI_A_FEATURE_SPEC_FINAL.md": "3d7447f9ed65422e33ecb7b5f4e9c6f12f5a5e6fa16f8ce09e7853f17603db80",
+    "reports/PSCI_F_FEATURE_SPEC_FINAL.md": "695a7fc62f69ef4a6ea2d363ab888023e233929841fb8e198aae9410c8d13fc9",
+    "reports/PSCI_O_FEATURE_SPEC_FINAL.md": "24ea26b5af88fe625bcf39684ca4fb3f2ab7c46823e7da559d463e7b74b15e7b",
+    "reports/PSCI_Q_FEATURE_SPEC_FINAL.md": "44c7afca1751c429d989ca9f56af8fded1baf90fffc82a3518b012b5c058c46e",
+    "reports/RHLB_ACTIVE_SITE_AUDIT.md": "6d6e2804d7b0006e349a60c1e47c832925d2cfcb422bb600ecf2366a5b24bdb9"
+  },
+  "statistical_unit": "construct_trajectory_not_frame",
+  "stride_ps": 100
+}

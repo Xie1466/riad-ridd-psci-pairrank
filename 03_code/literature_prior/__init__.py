@@ -1,0 +1,1 @@
+"""Literature architecture-prior implementation."""

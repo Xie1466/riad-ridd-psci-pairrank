@@ -1,0 +1,10 @@
+﻿metric,value,role
+studies,19,Literature V3.2 FINAL
+enzyme_systems,20,Literature V3.2 FINAL
+constructs,91,Literature V3.2 FINAL
+phenotype_records,102,Literature V3.2 FINAL
+validated_within_system_pairs,381,Literature V3.2 FINAL
+development_constructs,83,development
+locked_retrospective_external_constructs,8,retrospective external
+locked_retrospective_external_studies,2,retrospective external
+locked_retrospective_external_systems,3,retrospective external
