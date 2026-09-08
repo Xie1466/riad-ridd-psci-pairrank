@@ -10,4 +10,5 @@ authors:
   - family-names: "Xie"
     given-names: "Chengqian"
 repository-code: "https://github.com/Xie1466/riad-ridd-psci-pairrank"
+doi: 10.5281/zenodo.22656378
 license: MIT

@@ -2,7 +2,7 @@
 
 ## Code Availability
 
-Custom code used to assemble PSCI descriptors from deposited descriptor inputs, fit the literature-derived architecture prior, perform whole-enzyme-system leave-one-system-out PSCI-PairRank evaluation, reproduce the reported computational metrics, and generate computational figures is available at https://github.com/Xie1466/riad-ridd-psci-pairrank, release `v1.0.2-acs-reproducibility`. The versioned Zenodo archive is linked from that GitHub release; the stable software concept DOI is https://doi.org/10.5281/zenodo.22638943. The archive includes the pinned environment, exact run instructions, frozen model configuration, deterministic seed policy, tests, reference outputs, and SHA-256 manifests.
+Custom code used to assemble PSCI descriptors from deposited descriptor inputs, fit the literature-derived architecture prior, perform whole-enzyme-system leave-one-system-out PSCI-PairRank evaluation, reproduce the reported computational metrics, and generate computational figures is available at https://github.com/Xie1466/riad-ridd-psci-pairrank, release `v1.0.2-acs-reproducibility`, commit `70fb08f246f88302c6797b5ebccc9774a409637b`, and is permanently archived at Zenodo: https://doi.org/10.5281/zenodo.22656378. The archive includes the pinned environment, exact run instructions, frozen model configuration, deterministic seed policy, tests, reference outputs, and SHA-256 manifests.
 
 In the pinned Python 3.12.3, NumPy 1.26.4, and SciPy 1.11.4 environment, frozen probabilities reproduce at the strict `1e-12` gate. Compatible modern numerical stacks use a `1e-7` probability tolerance and must retain identical pair directions and manuscript-level metrics.
 

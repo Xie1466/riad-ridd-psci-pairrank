@@ -1,7 +1,23 @@
-Software creators (authoritative Zenodo order):
+ACS-style citation (Zenodo creators):
 
-Cai, Xue; Xie, Chengqian
+Cai, X.; Xie, C. RIAD/RIDD Protein-Scaffold PSCI-PairRank: Code and Minimal Reproducibility Data, version 1.0.2; Zenodo, 2026. https://doi.org/10.5281/zenodo.22656378.
 
-Current release: RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data, version 1.0.2; Zenodo concept DOI: https://doi.org/10.5281/zenodo.22638943; GitHub release: https://github.com/Xie1466/riad-ridd-psci-pairrank/releases/tag/v1.0.2-acs-reproducibility.
+Plain-text citation:
 
-The version-specific ACS-style, plain-text and BibTeX citations are recorded in the DOI-frozen documentation after Zenodo assigns the v1.0.2 version DOI.
+Cai, Xue; Xie, Chengqian (2026). RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data (version 1.0.2). Zenodo. https://doi.org/10.5281/zenodo.22656378.
+
+BibTeX:
+
+@software{cai_xie_riad_ridd_psci_pairrank_2026,
+  author    = {Cai, Xue and Xie, Chengqian},
+  title     = {RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data},
+  year      = {2026},
+  version   = {1.0.2},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22656378},
+  url       = {https://doi.org/10.5281/zenodo.22656378}
+}
+
+Repository citation:
+
+Xie1466/riad-ridd-psci-pairrank, release v1.0.2-acs-reproducibility, commit 70fb08f246f88302c6797b5ebccc9774a409637b, https://github.com/Xie1466/riad-ridd-psci-pairrank.

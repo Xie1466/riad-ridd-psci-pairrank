@@ -6,7 +6,10 @@
 - Software creators: Cai, Xue; Xie, Chengqian
 - GitHub repository: https://github.com/Xie1466/riad-ridd-psci-pairrank
 - Release tag: `v1.0.2-acs-reproducibility`
+- Release commit: `70fb08f246f88302c6797b5ebccc9774a409637b`
 - GitHub release: https://github.com/Xie1466/riad-ridd-psci-pairrank/releases/tag/v1.0.2-acs-reproducibility
+- Zenodo record: https://zenodo.org/records/22656378
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.22656378
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22638943
 - Previous v1.0.1 DOI: https://doi.org/10.5281/zenodo.22638944
 - Code license: MIT

@@ -1,19 +1,30 @@
 # DOI-frozen final documentation cleanup audit
 
-This file supersedes the v1.0.1 attribution-scope cleanup record for current software metadata. **SUPERSEDED BY V1.0.2 SOFTWARE CREATOR POLICY.**
+The v1.0.1 attribution-scope cleanup record is **SUPERSEDED BY V1.0.2 SOFTWARE CREATOR POLICY** for current software metadata.
 
 - `RELEASE_TYPE = DOCUMENTATION_ONLY_MAINTENANCE`
 - `VERSION = 1.0.2`
 - `GITHUB_REPOSITORY = https://github.com/Xie1466/riad-ridd-psci-pairrank`
 - `GITHUB_TAG = v1.0.2-acs-reproducibility`
+- `GITHUB_RELEASE_COMMIT = 70fb08f246f88302c6797b5ebccc9774a409637b`
+- `ZENODO_RECORD = https://zenodo.org/records/22656378`
+- `ZENODO_VERSION_DOI = 10.5281/zenodo.22656378`
 - `ZENODO_CONCEPT_DOI = 10.5281/zenodo.22638943`
 - `SOFTWARE_CREATORS = Cai, Xue; Xie, Chengqian`
 - `CREATOR_ATTRIBUTION_CONSISTENCY = EXACT`
 - `CURRENT_SOFTWARE_ATTRIBUTION_CONFLICTS = 0`
-- `SCIENTIFIC_FILES_CHANGED = 0`
+- `SCIENTIFIC_NUMERIC_FILES_CHANGED = 0`
+- `MODEL_FILES_CHANGED = 0`
+- `CODE_LOGIC_FILES_CHANGED = 0`
+- `QUICK_REPRODUCTION = PASS`
+- `PAIR_DIRECTIONS_IDENTICAL = 96/96`
+- `M2_PROBABILITIES_IDENTICAL = 24/24`
+- `MAX_COMPATIBILITY_PROBABILITY_ERROR = 1.0754e-08`
+- `UNIT_TESTS = PASS; TESTS_RUN = 8; TESTS_PASSED = 8; TESTS_SKIPPED = 0; TESTS_FAILED = 0`
+- `SECRET_PATH_AUDIT = PASS`
 - `REPRODUCIBILITY_TOLERANCE_SYNC = PASS`
 - `PSCI_DEFINITION_PRIORITY_SYNC = PASS`
 - `ARTICLE_DOI_STATUS = NOT_YET_AVAILABLE`
 - `TRAJECTORY_DOI_STATUS = NOT_YET_AVAILABLE`
 
-The final version DOI, release commit and post-release QC are recorded in the DOI-frozen public package after archival. No scientific file, model file or executable logic file is modified by this maintenance release.
+All 74 files in the frozen scientific scope are byte-identical between v1.0.1 and the v1.0.2 release tag. No scientific file, model file or executable logic file was changed.
