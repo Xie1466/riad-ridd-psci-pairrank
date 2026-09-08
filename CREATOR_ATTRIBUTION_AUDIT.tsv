@@ -1,0 +1,7 @@
+source	creator_order	creators	status
+Zenodo_authoritative_v1_0_1_record	1;2	Cai, Xue; Xie, Chengqian	AUTHORITY_FOR_V1_0_2_SOFTWARE_METADATA
+CITATION.cff	1;2	Cai, Xue; Xie, Chengqian	EXACT
+.zenodo.json	1;2	Cai, Xue; Xie, Chengqian	EXACT
+ACS_SOFTWARE_CITATION.txt	1;2	Cai, Xue; Xie, Chengqian	EXACT
+PUBLIC_RELEASE_METADATA.md	1;2	Cai, Xue; Xie, Chengqian	EXACT
+current_software_attribution_conflicts	NA	0	PASS

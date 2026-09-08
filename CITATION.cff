@@ -2,14 +2,12 @@ cff-version: 1.2.0
 message: "If you use this reproducibility release, cite the associated article and archived software release."
 title: "RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data"
 type: software
-version: 1.0.1
-date-released: 2026-09-07
+version: 1.0.2
+date-released: 2026-09-08
 authors:
-  - family-names: "Xie"
-    given-names: "Chengqian"
-  - family-names: "Zhao"
-    given-names: "Xiaoru"
   - family-names: "Cai"
     given-names: "Xue"
+  - family-names: "Xie"
+    given-names: "Chengqian"
 repository-code: "https://github.com/Xie1466/riad-ridd-psci-pairrank"
 license: MIT

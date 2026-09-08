@@ -14,6 +14,10 @@
 
 `D` follows the stored executable lineage: mass-weighted enzyme all-atom COM distance normalized by reference-coordinate enzyme CA radii of gyration. `L` follows the stored executable lineage: linker CA end-to-end distance divided by the same-frame sum of 16 consecutive linker CA distances. Older prose variants are retained as qualifications in the exact feature dictionary and were not used to alter values.
 
+For manuscript-facing and executable definitions, `05_data/internal16/PSCI_EXACT_FEATURE_DICTIONARY.csv` and `03_code/psci/descriptors.py` are authoritative. `02_config/PSCI_PHENOTYPE_BLIND_FEATURE_FREEZE.json` is retained as historical phenotype-blind provenance and must not override the final executable definitions. Accordingly, final `D` uses mass-weighted enzyme all-atom COM distance normalized by reference CA Rg, and final `L` uses linker end-to-end distance normalized by instantaneous summed CA-CA contour length. The historical CA-only COM wording and fixed `(n_residues-1)*0.38 nm` contour approximation are not final executable definitions.
+
+Missingness is preserved rather than filled: `F3` is not uniquely recoverable, `Q_topology` is not numerically instantiated, and `A`/`O` retain evidence-qualified missingness where applicable. No missing value is fabricated. The final predictive PSCI feature set is `[D, C, F1, F4, F5, L]`.
+
 
 ## ACS manuscript-facing additions
 

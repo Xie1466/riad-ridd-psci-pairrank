@@ -1,0 +1,19 @@
+# Public Release Metadata
+
+- Software title: RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data
+- Version: 1.0.2
+- Resource type: Software
+- Software creators: Cai, Xue; Xie, Chengqian
+- GitHub repository: https://github.com/Xie1466/riad-ridd-psci-pairrank
+- Release tag: `v1.0.2-acs-reproducibility`
+- GitHub release: https://github.com/Xie1466/riad-ridd-psci-pairrank/releases/tag/v1.0.2-acs-reproducibility
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.22638943
+- Previous v1.0.1 DOI: https://doi.org/10.5281/zenodo.22638944
+- Code license: MIT
+- Project-authored derived-data license: CC BY 4.0
+- Article DOI status: `NOT_YET_AVAILABLE`
+- Trajectory DOI status: `NOT_YET_AVAILABLE`
+- Full trajectory reproduction: `NOT_AVAILABLE`
+- Pinned verification: Python 3.12.3, NumPy 1.26.4, SciPy 1.11.4, probability tolerance `1e-12`
+- Compatible modern verification: probability tolerance `1e-7`, identical pair directions and manuscript metrics required
+- M2: 19/24; Spearman 0.6548461876; Kendall tau-b 0.5217491947; Top1 3/4; true-best in predicted Top2 3/4; exact Top2 set 2/4

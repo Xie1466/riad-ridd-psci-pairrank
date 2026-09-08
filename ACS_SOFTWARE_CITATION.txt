@@ -1,0 +1,7 @@
+Software creators (authoritative Zenodo order):
+
+Cai, Xue; Xie, Chengqian
+
+Current release: RIAD/RIDD protein-scaffold PSCI-PairRank: code and minimal reproducibility data, version 1.0.2; Zenodo concept DOI: https://doi.org/10.5281/zenodo.22638943; GitHub release: https://github.com/Xie1466/riad-ridd-psci-pairrank/releases/tag/v1.0.2-acs-reproducibility.
+
+The version-specific ACS-style, plain-text and BibTeX citations are recorded in the DOI-frozen documentation after Zenodo assigns the v1.0.2 version DOI.
